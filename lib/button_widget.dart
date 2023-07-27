@@ -6,15 +6,13 @@ class ButtonWidget extends StatelessWidget {
   final String txt;
   final Color backgroundColor;
   final Color txtColor;
-  final VoidCallback onTap;
+  final void Function() onTap;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: 85,
-        width: 85,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           color: backgroundColor
