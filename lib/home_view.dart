@@ -230,7 +230,7 @@ class _HomeViewState extends State<HomeView> {
       backgroundColor: const Color(0xffCFC2F0),
       body: Column(
         children: [
-          const SizedBox(height: 50,),
+          const SizedBox(height: 25,),
           Expanded(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
